@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int main()
+int main(void)//this is for a pull request
 {
     string s, s1;
     s = "HELLO";
