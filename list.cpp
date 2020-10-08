@@ -5,13 +5,16 @@ int main()
 {
     list <int> LI;
     list <int>::iterator it;
+    int i, n, x; // adding a loop to add elements in list from user.
+    cin >> n;
     //inserts elements at end of list
-    LI.push_back(4);
-    LI.push_back(5);
+    for(i=0;i<n;i++)
+    {
+        cin >> x;
+        LI.push_front(x);
+    }
 
     //inserts elements at beginning of list
-    LI.push_front(3);
-    LI.push_front(5);
 
     //returns reference to first element of list
     it = LI.begin();
